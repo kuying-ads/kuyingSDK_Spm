@@ -16,7 +16,7 @@ The Taku (KuYing) Smartdigimkt ADX SDK for iOS, distributed via Swift Package Ma
    ```
    https://github.com/kuying-ads/kuyingSDK_Spm.git
    ```
-3. Select **Exact Version** and enter the target version (e.g. `6.0.0`).
+3. Select **Exact Version** and enter the target version (e.g. `6.0.1`).
 4. Add the `SmartdigimktCNSDK` product to your app target.
 5. In your target's **Build Settings**, add `-ObjC` to **Other Linker Flags**.
 
@@ -26,7 +26,7 @@ The Taku (KuYing) Smartdigimkt ADX SDK for iOS, distributed via Swift Package Ma
 dependencies: [
     .package(
         url: "https://github.com/kuying-ads/kuyingSDK_Spm.git",
-        exact: "6.0.0"
+        exact: "6.0.1"
     )
 ]
 ```
